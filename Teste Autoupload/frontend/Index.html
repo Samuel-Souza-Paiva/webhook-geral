@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Webhook Dashboard</title>
+  <style>
+    :root { --green:#00a651; --muted:#888; --card:#171717; --bg:#111; --fg:#eee; }
+    html,body { background:var(--bg); color:var(--fg); margin:0; font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif; }
+    header { position:sticky; top:0; z-index:10; background:var(--green); color:#fff; padding:10px 14px; }
+    header .host { opacity:.9; font-family:monospace; }
+    main { max-width:1100px; margin:14px auto; padding:0 14px; display:grid; gap:16px; grid-template-columns:1fr; }
+    @media (min-width:1000px){ main { grid-template-columns:1fr 1fr; } }
+    section { background:var(--card); border:1px solid #2a2a2a; border-radius:10px; padding:12px; }
+    h2 { margin:4px 0 12px; font-size:1.05rem; }
+    .muted { color:var(--muted); font-size:.9rem; }
+    pre { background:#0f0f0f; border:1px solid #222; padding:10px; border-radius:8px; overflow:auto; }
+    .row { margin-bottom:12px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:12px; }
+    .ph { border:1px solid #2a2a2a; border-radius:10px; overflow:hidden; background:#101010; }
+    .ph img { width:100%; height:auto; display:block; }
+    .cap { padding:8px; font-size:.9rem; color:var(--muted); }
+    details summary { cursor:pointer; color:#9fd8ff; }
+    a { color:#9fd8ff; text-decoration:none; } a:hover{text-decoration:underline;}
+  </style>
+</head>
+<body>
+  <header>
+    <strong>Webhook Online</strong> — ativo na <code> Porta 666</code> •
+    <span class="host"></span>
+  </header>
+
+  <main>
+    <section>
+      <h2>Eventos (tempo real)</h2>
+      <div id="list-eventos"></div>
+    </section>
+
+    <section>
+      <h2>Fotos (tempo real)</h2>
+      <div id="list-fotos" class="grid"></div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html> -->
