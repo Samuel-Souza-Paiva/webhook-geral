@@ -1,5 +1,3 @@
-Claro! Aqui está um **README.md completo, profissional e bem organizado**, ideal para GitHub, GitLab ou repositório interno Intelbras.
-Caso queira personalizar com logos, prints ou instruções específicas da empresa, eu ajusto depois.
 
 ---
 
@@ -141,7 +139,7 @@ Recebe qualquer tipo de imagem:
 
 #  JPEG Fixer – Como funciona
 
-Câmeras Dahua/Intelbras às vezes enviam:
+Câmeras Intelbras às vezes enviam:
 
 * boundary do multipart junto com a imagem
 * bytes extras antes do cabeçalho SOI (FFD8)
