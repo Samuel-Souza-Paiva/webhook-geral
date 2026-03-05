@@ -258,21 +258,11 @@ Este projeto pode ser usado para:
 * debugging de envios snapshot/evento
 * validação de sensores e IA
 
-Caso seja usado na Intelbras, personalize conforme ambiente.
+personalize conforme ambiente.
 
 ---
 
-#  Suporte / Melhorias
 
-Solicite melhorias como:
-
-* limpeza automática de uploads antigos
-* modal zoom ao clicar na foto
-* autenticação via token
-* API de histórico paginado
-* exportação de eventos
-
-Só pedir que adiciono tudo. 🚀
 
 ---
 
